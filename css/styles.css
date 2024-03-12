@@ -95,6 +95,8 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02;
   color: var(--color-body);
+  display: flex;
+  gap: 40px;
 }
 
 .link-studio {
@@ -221,6 +223,7 @@ color: var(--color-body);
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--font-color);
+  padding: 24px 0; 
 }
 
 .li-links {
