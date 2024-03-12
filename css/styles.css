@@ -8,6 +8,7 @@
   --ourteam-section: #ffffff;
   --color-body: #434455;
   --font-color: #2e2f42;
+--header-color:#e7e9fc;
 }
 
 .logo-class:hover,
@@ -37,12 +38,27 @@ button {
 }
 .link {
   text-decoration: none;
+  margin-right: 76px;
+  
 }
 
 button:hover,
 button:focus {
   background-color: var(--blue-color);
 }
+
+.header {border-bottom: 1px solid var(--header-color)}
+
+.div-header {display: flex; 
+}
+
+.container {width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+.nav-header {display: flex;
+  align-items: center;}
 
 .studio-class {
   color: var(--studio-class);
