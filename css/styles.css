@@ -204,10 +204,17 @@ button:focus {
   color: var(--color-body);
   text-align: center;
 }
+.our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .p-style {font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 color: var(--color-body);
+align-items: flex-start;
+margin-bottom: 8px;
 }
 .sec-head {
   font-size: 36px;
@@ -223,6 +230,7 @@ color: var(--color-body);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--font-color);
+  margin-bottom: 8px;
 }
 
 .last-section {
@@ -242,7 +250,20 @@ color: var(--color-body);
     margin-bottom: 72px;
     text-align: center;
 }
-
+.portfolio-list {
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.portfolio-card {
+  width: calc((100% - 48px) / 3);
+}
+.gallery-item-names {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .p-describes {
   font-size: 16px;
   line-height: 1.5;
