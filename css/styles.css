@@ -66,8 +66,17 @@ button:focus {
 
 .ourteam-section {
   background-color: var(--ourteam-section);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-
+.member-details {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  display: block;
+}
 .logo {
   font-size: 18px;
   font-weight: 700; 
@@ -115,6 +124,12 @@ button:focus {
   color: var(--color-body);
   display: flex;
   gap: 40px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
 
 .link-studio {
@@ -174,7 +189,8 @@ button:focus {
     color: #2e2f42;
     margin-bottom: 8px;
     width: calc((100% - 72px) / 4);
-    margin-bottom: 8px;    
+    margin-bottom: 8px;
+    text-align: center;
 }
 .footer-acapit {
   line-height: 1.5;
@@ -186,6 +202,7 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-body);
+  text-align: center;
 }
 .p-style {font-size: 16px;
   line-height: 1.5;
@@ -210,6 +227,8 @@ color: var(--color-body);
 
 .last-section {
   background-color: var(--studio-class);
+  gap: 24px;
+  padding: 120px 0;
 }
 .last-class {
   font-size: 36px;
@@ -218,6 +237,10 @@ color: var(--color-body);
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--font-color);
+  font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 72px;
+    text-align: center;
 }
 
 .p-describes {
