@@ -101,9 +101,12 @@ button:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.second-section-list {display: flex;
-  gap: 24px; 
-  }
+
+.section-list {display: flex;
+  gap: 24px;}
+
+.second-section-list {width: calc((100% - 72px) / 4);}
+
 .list {
   list-style: none;
   font-size: 16;
@@ -165,10 +168,13 @@ button:focus {
 }
 .sol-class {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--font-color);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;    
 }
 .footer-acapit {
   line-height: 1.5;
