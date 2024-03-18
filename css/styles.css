@@ -21,6 +21,15 @@
   color: var(--blue-color);
 }
 
+img {
+  display: block;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+list-style: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--color-body);
